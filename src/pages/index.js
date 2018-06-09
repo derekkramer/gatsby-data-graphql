@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <div>Welcome to GatsbyJS``!</div>
+export default () => <div>Welcome to GatsbyJS!</div>
