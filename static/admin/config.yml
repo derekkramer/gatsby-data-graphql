@@ -8,7 +8,7 @@ public_folder: assets
 collections:
   - name: article
     label: Article
-    folder: pages
+    folder: src/pages
     create: true
     fields:
       - { name: path, label: Path }
