@@ -11,6 +11,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-glamor',
+    'gatsby-plugin-netlify-cms',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-plugin-typography',
