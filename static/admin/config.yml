@@ -1,14 +1,14 @@
 backend:
-  # name: git-gateway
-  name: test-repo
+  name: github
+  repo: derekkramer/gatsby-data-graphql
 
 media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: article
+    label: Article
+    folder: pages
     create: true
     fields:
       - { name: path, label: Path }
