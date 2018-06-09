@@ -7,7 +7,6 @@ const el = ({ data }) => (
       About {data.site.siteMetadata.title}
     </h1>
     <p>
-      {JSON.stringify(data)}
       We&#39;re the only site running on your computer dedicated to showing the best
       photos and videos of pandas eating lots of food.
     </p>
@@ -15,7 +14,7 @@ const el = ({ data }) => (
 );
 
 el.propTypes = {
-  data: PropTypes.objectOf(PropTypes.object).isRequired,
+  data: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default el;

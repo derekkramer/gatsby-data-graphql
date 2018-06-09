@@ -33,7 +33,7 @@ const el = ({ children, data }) => (
 
 el.propTypes = {
   children: PropTypes.func.isRequired,
-  data: PropTypes.objectOf(PropTypes.object).isRequired,
+  data: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default el;
