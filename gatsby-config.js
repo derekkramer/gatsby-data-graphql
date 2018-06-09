@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Eats Shoots, Then Leaves',
+  },
   plugins: [
     'gatsby-plugin-glamor',
     {
