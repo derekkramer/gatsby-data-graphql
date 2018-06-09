@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: derekkramer/gatsby-data-graphql
+  branch: cms
 
 media_folder: static/assets
 public_folder: assets
